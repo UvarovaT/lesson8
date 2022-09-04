@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+section {
+  height: 800px;
+}
+
+.main_img {
+  height: 688px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 26px;
+  z-index: 1000;
+}
+.header .header_container {
+  max-width: 1400px;
+  padding: 0 20px 0 4px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header_container .header_logo {
+  max-width: 100px;
+}
+.header .header_container .header_cart {
+  display: flex;
+}
+.header .header_container .header_cart p {
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #262626;
+  margin-right: 55px;
+}
+.header .header_container .header_cart .header_burger {
+  width: 20px;
+  margin-top: 6px;
+}
+.header .header_container .header_cart .header_burger .line {
+  height: 2px;
+  background: #262626;
+  margin-bottom: 6px;
+}
+
+.home {
+  background: #E7F066;
+}
+.home .home_img_container {
+  width: 75%;
+}
+.home .home_img_container .home_img {
+  background-image: url("Rectangle.png");
+  position: relative;
+}
+.home .home_img_container .home_img .home_img_info {
+  max-width: 357px;
+  position: absolute;
+  right: -330px;
+  bottom: -78px;
+  background: #1B1B1B;
+  padding: 47px 48px 53px 50px;
+}
+.home .home_img_container .home_img .home_img_info p {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #F1F1EE;
+  margin-bottom: 2px;
+}
+.home .home_img_container .home_img .home_img_info .decor {
+  display: inline-block;
+}
+.home .home_img_container .home_img .home_img_info .decor a {
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #F1F1EE;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+.home .home_img_container .home_img .home_img_info .decor div {
+  background: #F1F1EE;
+  height: 1px;
+}
+.home .home_img_container .home_img_text {
+  margin: 40px 0 0 40px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #262626;
+}
+
+/*# sourceMappingURL=style.css.map */
